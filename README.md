@@ -24,7 +24,7 @@ A workout can contain multiple exercises, while an exercise can be used in multi
 1. Clone the repository
 
 ```bash
-git clone git@github.com:tandisimelane-15/workout-application-backend.git
+git clone https://github.com/tandisimelane-15/workout-application-backend.git
 ```
 
 2. Open the project folder
@@ -74,7 +74,9 @@ python seed.py
 Start the Flask server from the `server` directory:
 
 ```bash
-python app.py
+export FLASK_APP=app.py
+export FLASK_RUN_PORT=5555
+flask run
 ```
 
 The application runs on port `5555`.
@@ -146,5 +148,5 @@ SOFTWARE.
 
 ## Contact
 
-- LinkedIn: LinkedIn: [Abigail Tandiwe](https://www.linkedin.com/in/abigailtandi)
+- LinkedIn: [Abigail Tandiwe](https://www.linkedin.com/in/abigailtandi)
 - Email: tandisimelane24@gmail.com
